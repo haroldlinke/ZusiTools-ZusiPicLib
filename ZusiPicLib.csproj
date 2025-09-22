@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <TargetFrameworks>net6.0-windows;net8.0-windows</TargetFrameworks>
     <OutputType>Library</OutputType>
     <ApplicationVersion>3.0.0.0</ApplicationVersion>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
@@ -12,15 +12,15 @@
     <Copyright>Copyright © 2018-2024 Holger Maaß, Harold Linke</Copyright>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>6.0.0</Version>
+    <Version>8.0.1</Version>
     <PackageOutputPath>D:\data\Development\NuGet-Packages</PackageOutputPath>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.17" />
-    <PackageReference Include="Sovoma" Version="6.2.0" />
-    <PackageReference Include="Sovoma.WPF" Version="6.7.3" />
+    <PackageReference Include="Sovoma" Version="8.0.1" />
+    <PackageReference Include="Sovoma.WPF" Version="8.0.1" />
     <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
+    <PackageReference Include="ZusiKlassenLib" Version="8.0.1" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SovomaLib" />
